@@ -1,6 +1,8 @@
 class Car:
     runs = True
 
+# initializer function
+# the __ indicates it's special
     def __init__(self, name):
         print("new car!")
         self.name = name
